@@ -8,9 +8,9 @@ env M2_HOME=/apache-maven-3.6.3
 env JAVA_HOME=/opt/java/openjdk/
 env PATH=$PATH:/$M2_HOME/bin
 
-run git clone https://github.com/spring-petclinic/spring-petclinic-rest.git
+run git clone https://github.com/bryandollery/spring-petclinic-rest.git
 run cd spring-petclinic-rest && \
-    mvn clean install
+    mvn dependency:go-offline
 
 from adoptopenjdk/openjdk11:alpine
 

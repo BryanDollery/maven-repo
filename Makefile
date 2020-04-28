@@ -1,5 +1,5 @@
 build:
-	docker build --tag bryandollery/maven-m2-primed .
+	docker build --tag bryandollery/maven-repo .
 
 run:
-	docker run -it --rm bryandollery/maven-m2-primed bash
+	docker run -it --rm bryandollery/maven-repo bash
