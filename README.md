@@ -4,4 +4,3 @@ I have been sitting here making changes to a large java application (spring-petc
 
 This may not suit everyone, and may not contain all the maven libraries you need. If you're doing spring-boot development then it will contain a lot of them. If it's not enough, build your own extension and copy the pattern I have here -- it's pretty easy. Hopefully this will save me, and anyone else using this, a lot of time building java/maven projects.
 
-Random demo change
