@@ -12,7 +12,7 @@ env PATH=$PATH:/$M2_HOME/bin
 
 # Use a random project and maven to to 'seed' the $HOME/.m2/repository folder
 run git clone https://github.com/KnowledgeHut-AWS/level3-project.git
-workdir cd level3-project
+workdir /level3-project/shipping
 run mvn dependency:go-offline
 
 from adoptopenjdk/openjdk11:alpine
